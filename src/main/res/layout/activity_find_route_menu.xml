@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    tools:context=".findRouteMenu">
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="259dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/otaplogo" />
+
+    <ImageView
+        android:id="@+id/jeepImage"
+        android:layout_width="0dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phjeep" />
+
+    <ImageView
+        android:id="@+id/busImage"
+        android:layout_width="0dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/findRoute"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jeepImage"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/phbus" />
+
+    <Button
+        android:id="@+id/findRoute"
+        android:layout_width="147dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="28dp"
+        android:text="Find Route"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

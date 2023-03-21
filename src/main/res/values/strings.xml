@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BTER Javacode</string>
+    <string name="disclosure_"><b>Disclosure of Your Personal Data</b>\u000D\n\n<b>Business Transactions</b>\u000D\nIf the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.\u000D\n\u000D\n<b>Law enforcement</b>\u000D\nUnder certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).\u000D\n\u000D\n<b>Other legal requirements</b>\u000D\nThe Company may disclose Your Personal Data in the good faith belief that such action is necessary to:\u000D\n\u000D\n•Comply with a legal obligation\u000D\nProtect and defend the rights or property of the Company\u000D\n•Prevent or investigate possible wrongdoing in connection with the Service\u000D\n•Protect the personal safety of Users of the Service or the public\u000D\n•Protect against legal liability\u000D\n\n<b>Security of Your Personal Data</b>\u000D\nThe security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.\u000D\n\n<b>Links to Other Websites</b>\u000D\nOur Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party\'s site. We strongly advise You to review the Privacy Policy of every site You visit.\u000D\n\u000D\nWe have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.\u000D\n\u000D\n<b>Changes to this Privacy Policy</b>\u000D\nWe may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.\u000D\n\u000D\nWe will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.\u000D\n\u000D\nYou are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.\u000D\n\u000D\n<b>Contact Us</b>\u000D\nIf you have any questions about this Privacy Policy, You can contact us:\u000D\n\u000D\nBy email: support@bigtechenergy.com</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="maps_api_key">AIzaSyCg6_ZXqy0Ej4-DjQDJF5xov-L9TVQ2d9s</string>
+    <string name="option_get_place">Get Place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="spinner_string">Choose a location:</string>
+    <string name="blue_map_markers_drop_off_point">Blue Map Markers: Drop-off Point Red Map Markers: Terminal</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
